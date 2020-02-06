@@ -13,7 +13,7 @@ import com.lucasmourao.webservice.entities.User;
 import com.lucasmourao.webservice.services.UserService;
 
 @RestController
-@RequestMapping(value = "/Users")
+@RequestMapping(value = "/users")
 public class UserResource {
 
 	@Autowired
